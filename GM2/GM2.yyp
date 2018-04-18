@@ -55,6 +55,14 @@
             }
         },
         {
+            "Key": "1e0c08a9-3527-4dc8-bbfc-052dcc30691a",
+            "Value": {
+                "id": "f2d30501-17da-46a7-b2dc-36765ce778a3",
+                "resourcePath": "sprites\\cardHoverBG\\cardHoverBG.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "23cce8c9-bcae-4fc5-a6be-71519d6da6af",
             "Value": {
                 "id": "70756f45-c864-4a6e-a5a9-273b9ea6a6ed",
