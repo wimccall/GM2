@@ -6,7 +6,10 @@ for (var i = 0; i < argument0; i++) {
 				Gamemanager.hand[j] = instance_create_depth(Gamemanager.cardPos[j, 0],Gamemanager.cardPos[j, 1], j, draw);
 				break; // card found, on to the next one.
 			}
+			if (j == Gamemanager.Handsize - 1) { // TODO. Hand is full and we are attempting to draw. Do something
+				
+			}
 		}
 		ds_list_delete(Player_obj.Deck, 0)
-	} else {break;}
+	} else {break;} // deck out. No more draws.
 }
