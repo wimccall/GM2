@@ -55,11 +55,27 @@
             }
         },
         {
+            "Key": "1e0c08a9-3527-4dc8-bbfc-052dcc30691a",
+            "Value": {
+                "id": "f2d30501-17da-46a7-b2dc-36765ce778a3",
+                "resourcePath": "sprites\\cardHoverBG\\cardHoverBG.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "23cce8c9-bcae-4fc5-a6be-71519d6da6af",
             "Value": {
                 "id": "70756f45-c864-4a6e-a5a9-273b9ea6a6ed",
                 "resourcePath": "views\\23cce8c9-bcae-4fc5-a6be-71519d6da6af.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "260edd5b-b8c8-450d-b194-1f99f1ca2544",
+            "Value": {
+                "id": "42973a02-2c48-4cf5-be47-da4fd02b8af0",
+                "resourcePath": "sprites\\RunCardSprite\\RunCardSprite.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -119,6 +135,14 @@
             }
         },
         {
+            "Key": "88abc0c2-c8df-448b-8b5b-f02aa32815b8",
+            "Value": {
+                "id": "0b086282-2b22-4fba-9b0a-454690822cb4",
+                "resourcePath": "objects\\JumpCard\\JumpCard.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "8fd46201-bc3a-4f2d-a9a8-57f758fed631",
             "Value": {
                 "id": "6014e103-f362-4682-8efb-e738c2830e3b",
@@ -151,6 +175,14 @@
             }
         },
         {
+            "Key": "ade6a3d7-3134-4d1e-8edf-6152f76cbd05",
+            "Value": {
+                "id": "a7ef349b-aa8f-4baa-8d86-7c5d5745e6ee",
+                "resourcePath": "objects\\Gamemanager\\Gamemanager.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "b50105a6-6549-4ba7-92f9-520982840a82",
             "Value": {
                 "id": "9e1c4ebe-531a-4be0-8fd7-5c6b92579d46",
@@ -167,11 +199,35 @@
             }
         },
         {
+            "Key": "baeeee5a-9ba8-48fa-8a25-3348e29878e1",
+            "Value": {
+                "id": "4e10727d-0da7-4568-ba18-132967d69064",
+                "resourcePath": "objects\\RunCard\\RunCard.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "c18117da-fdef-41f3-9ef4-3475f9024ddf",
+            "Value": {
+                "id": "8dafb0cf-54e3-4b7f-a85a-24b7628b501b",
+                "resourcePath": "scripts\\DrawCards\\DrawCards.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "c5785386-5b34-4d92-bb40-2e276164fc74",
             "Value": {
                 "id": "9587683d-ff74-443e-823c-d9258cc5e619",
                 "resourcePath": "views\\c5785386-5b34-4d92-bb40-2e276164fc74.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "cc404020-ba1d-4a67-93ba-d05a02f994c8",
+            "Value": {
+                "id": "9398461f-facc-4137-a924-69b3f2771c83",
+                "resourcePath": "objects\\ParentCard\\ParentCard.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -199,6 +255,14 @@
             }
         },
         {
+            "Key": "f4452cdd-ce21-436e-97a8-4e2aecffaa12",
+            "Value": {
+                "id": "2b8da030-65d2-438f-b802-0f8e4b95d72e",
+                "resourcePath": "sprites\\JumpCardSprite\\JumpCardSprite.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "f502db51-8294-4f2f-9d03-a870bd9a01b6",
             "Value": {
                 "id": "efd7f202-37b7-4b44-b699-2637a753e87e",
@@ -208,7 +272,7 @@
         }
     ],
     "script_order": [
-        
+        "c18117da-fdef-41f3-9ef4-3475f9024ddf"
     ],
     "tutorial": ""
 }
