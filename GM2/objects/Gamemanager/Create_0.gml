@@ -1,6 +1,7 @@
 /// @description Insert description here
 // You can write your code in this editor
 randomize(); // Randomize the RNG seed
+player = Player_obj;
 
 playerDeckFull = ds_list_create();
 
@@ -40,5 +41,7 @@ hand[2] = noone;
 hand[3] = noone;
 hand[4] = noone;
 
-// Spawn the player so his create even happens after this one.
-player = instance_create_depth(100, 100, 10, Player_obj);
+// Deck set up
+player.Deck = Gamemanager.playerDeckFull;
+ds_list_shuffle(player.Deck);
+DrawCards(5);
